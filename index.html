@@ -1,0 +1,137 @@
+<!-- saved from url=(0064)http://www.gitastudents.com/~orleansl/BOHS%20NASA%20Club%20Site/ -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<title>BOHS NASA Club</title>
+		<link rel="shortcut icon" href="http://www.gitastudents.com/~orleansl/BOHS%20NASA%20Club%20Site/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="./BOHS NASA Club_files/style.css">
+		<link href="./BOHS NASA Club_files/css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="./BOHS NASA Club_files/jquery.js"></script>
+		<script type="text/javascript" src="./BOHS NASA Club_files/jquery-ui-1.8.16.custom.min.js"></script>
+		<script type="text/javascript" src="./BOHS NASA Club_files/java.js"></script>
+		-->
+		<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount', 'UA-31002145-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script>
+	</head>
+	<body>
+		<div class="roundedCornerTopRight" style="top:40px; left:-13px;"></div>
+		<div class="header">
+			<p class="headerText" onclick="changePage(&#39;home&#39;)" id="headerText" onmouseover="highLiteHeader(true)" onmouseout="highLiteHeader(false)">
+				BOHS NASA Club
+			</p>
+		</div>
+		<div class="headerShadow"></div>
+		<div class="sideBar">
+			<br>
+			<!--<span onclick="changePage(&#39;home&#39;)" onmouseover="slideLinkRight(&#39;home&#39;)" onmouseout="slideLinkLeft(&#39;home&#39;)" id="home" class="sideBarLink">Home</span><br>
+			<span onclick="changePage(&#39;about&#39;)" onmouseover="slideLinkRight(&#39;about&#39;)" onmouseout="slideLinkLeft(&#39;about&#39;)" id="about" class="sideBarLink">About</span><br>
+			<span onclick="changePage(&#39;members&#39;)" onmouseover="slideLinkRight(&#39;members&#39;)" onmouseout="slideLinkLeft(&#39;members&#39;)" id="members" class="sideBarLink">Members</span><br>
+			<span onclick="changePage(&#39;events&#39;)" onmouseover="slideLinkRight(&#39;events&#39;)" onmouseout="slideLinkLeft(&#39;events&#39;)" id="events" class="sideBarLink">Events</span><br>
+			<span onclick="changePage(&#39;achievements&#39;)" onmouseover="slideLinkRight(&#39;achievements&#39;)" onmouseout="slideLinkLeft(&#39;achievements&#39;)" id="achievements" class="sideBarLink">Achievements</span><br>
+			<span onclick="changePage(&#39;contact&#39;)" onmouseover="slideLinkRight(&#39;contact&#39;)" onmouseout="slideLinkLeft(&#39;contact&#39;)" id="contact" class="sideBarLink">Contact Us</span><br>
+			-->
+			<!--NEW-->
+			<style type='text/css'>
+				#menu, #menu ul {
+					/* Remove bullet points and add fonts */
+					list-style: none;
+					/*width: 200px;*/
+					position: relative;
+					top: 0px;
+					left: -20px;
+					margin: 0px auto;
+					font-family: Helvetica, Arial, sans-serif;
+				}
+				#menu li {
+					/* Horizontal menu, not vertical. Then just a little extra positioning */
+					/*float: left;*/
+					position: relative;
+					overflow: hidden;
+					margin-right: 20px;
+					height: 40px;
+				}
+				#menu li a {
+					/* Clear up the links and position them correctly */
+					color: #ccc;
+					padding: 0 15px;
+					text-decoration: none;
+					display: block;
+					position: relative;
+					height: 40px;
+					padding: 10px 15px;
+					font-weight: bold;
+					/* Quick animations to animate the anchor */
+					-webkit-transition: all 0.2s ease-in;
+					-moz-transition: all 0.2s ease-in;
+					-ms-transition: all 0.2s ease-in;
+				}
+				#menu li span {
+					/* Default width of the span (acts as border). Z-index so it appears behind the words. */
+					width: 6px;
+					z-index: -1;
+					/* Position it absolutely so it goes where we want it to go */
+					position: absolute;
+					left: 0;
+					top: 0;
+					height: 100%;
+					/* Animation again, because both the span and the anchor will be animated */
+					-webkit-transition: all 0.4s ease-in;
+					-moz-transition: all 0.4s ease-in;
+					-ms-transition: all 0.4s ease-in;
+				}
+				#menu li span {
+					background: #ccc;
+				}
+				#menu li:hover > span {
+					min-width: 100%;
+				}
+				#menu li a:hover {
+					color: #fff;
+				}
+				#menu .sub-menu li {
+					padding: 10px;
+					float: left;
+				}
+				#menu li:hover {
+					box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+				}
+			</style>
+			
+			<ul id="menu">
+				<li>
+					<a href="#"> Home </a>
+					<span onclick="changePage(&#39;home&#39;)" id="home"></span>
+				</li>
+				<li>
+					<a href="#"> About </a>
+					<span onclick="changePage(&#39;about&#39;)" id="about"></span>
+				</li>
+				<li>
+					<a href="#"> Members </a>
+					<span></span>
+				</li>
+				<li>
+					<a href="#"> Events </a>
+					<span></span>
+				</li>
+				<li>
+					<a href="#"> Achievements </a>
+					<span></span>
+				</li>
+				<li>
+					<a href="#"> Contact Us </a>
+					<span></span>
+				</li>
+			</ul>
+			<!--/NEW-->
+			<img src="./BOHS NASA Club_files/icon.png" id="icon" width="190" style="position: absolute; top: 665px; left: 5px; ">
+			<div class="cInfo" id="cInfo" style="top: 619px; left: 5px; ">
+				&copy; BOHS NASA Club 2012
+				<br>
+				Site designed by <a href="http://www.gitastudents.com/~orleansl">Louis Orleans</a>
+			</div>
+		</div>
+		<div class="roundedCornerTopLeft" style="top:40px; left:195px;"></div>
+		<div id="contentWrapper" class="contentWrapper" style="width: 987px; height: 828px; "></div>
+		-->
+	</body>
+</html>

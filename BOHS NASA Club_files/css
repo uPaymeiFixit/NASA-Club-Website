@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Share';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share'), local('Share-Regular'), url('http://themes.googleusercontent.com/static/fonts/share/v1/V0tPyYest8OjeghtuqYjiaCWcynf_cDxXwCLxiixG1c.woff') format('woff');
+}
